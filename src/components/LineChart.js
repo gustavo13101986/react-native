@@ -18,7 +18,7 @@ import {
       useEffect(() => {
 
         async function fetchData(){
-          await fetch("")
+          await fetch("http://18.222.193.134:3001/sensado")
               .then((response) => { return response.json() } )
               .catch((error) => console.warn("fetch error:", error))
               .then((response) => {

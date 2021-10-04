@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Button, Dimensions } from "react-native";
 import { View, Text, StyleSheet  } from 'react-native';
 
 import {
